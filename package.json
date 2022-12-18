@@ -1,0 +1,24 @@
+{
+  "name": "hackathon-wemakedevs",
+  "version": "1.0.0",
+  "description": "A community based chat application for environmental sustainability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devyloper/hackathon-wemakedevs.git"
+  },
+  "author": "Devyanshu Jadon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devyloper/hackathon-wemakedevs/issues"
+  },
+  "homepage": "https://github.com/devyloper/hackathon-wemakedevs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
