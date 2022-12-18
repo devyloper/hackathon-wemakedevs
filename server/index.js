@@ -32,6 +32,9 @@ app.use(express.static(staticPath))
 app.get('/',(req,res)=>{
     res.send('/index.html')
 })
+app.get('/signUp',(req,res)=>{
+    res.send('/signUp')
+})
 app.post('/register',async (req,res)=>{
     const {username,password} = req.body;
     const register = new Model({
